@@ -1,0 +1,87 @@
+
+/* –––––––––––––– */
+/*     TABLAS     */
+/* –––––––––––––– */
+
+.week{
+	text-align: center;
+	background-color: rgb(140,140,140)!important;
+}
+
+.info{
+	background-color:  #29B873 !important;
+	color: rgb(255,255,255);
+}
+
+
+
+#table-container{
+	background-color: rgb(247,247,247);
+	padding: 20px;
+}
+
+/* –––––––––––––––––––– */
+/*     SECCIÓN AGUA     */
+/* –––––––––––––––––––– */
+
+.water{
+	background-color: rgb(255,255,255);
+	padding-bottom: 20px;
+}
+
+.water-form{
+	background-color: rgba(255,255,255,0.8);
+}
+
+.water h2{
+	text-align: center;
+	padding-top: 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.water-line{
+	width: 40%;
+	border-width: 2px;
+	border-color:lightblue;
+	padding-bottom: 20px;
+}
+
+.vasos{
+	margin: 0 auto;
+}
+
+.radio{
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+.beber-agua{
+	width: 150%;
+}
+
+
+/* ––––––––––––––––––––– */
+/*     MEDIA QUERIES     */ 
+/* ––––––––––––––––––––– */  
+
+/* Vista móvil */
+
+@media only screen and (max-width: 415px) {
+
+	/* –––––––––––––––––––– */
+	/*     SECCIÓN AGUA     */
+	/* –––––––––––––––––––– */
+
+	.beber-agua{
+		width: 100%;
+	}
+	/* talleres*/
+	.hovereffect h2{
+		font-size: 12px!important;
+	}
+	.hovereffect a{
+		font-size: 12px!important;
+	}
+}

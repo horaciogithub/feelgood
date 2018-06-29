@@ -1,2 +1,0 @@
-Ésta es la última versión hecha con refactorización y mejora de estilos.
-Ha sido entregada el día 28-04-2018 para su corrección.
